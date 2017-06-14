@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <h1>Virtual Toss</h1>
+        <div class="images">
+            <img src="images/head.jpg" alt="head" id="head-side" onclick="setHead();" class="image"/>
+
+            <img src="images/tail.jpg" alt="tail" id="tail-side" onclick="setTail();" class="image"/>
+        </div>
+        <div class="buttons">
+        <form action="" >
+            <button width='10' height='10' name="button" value="toss" onclick="startToss();" class="toss-btn">
+            Toss
+        </button>
+        <br />
+            <button width='20' height='15' name="cancel-button" value='cancel' onclick="setUndifined();" class="toss-btn">
+            Cancel
+        </button>
+        </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

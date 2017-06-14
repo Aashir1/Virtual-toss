@@ -1,0 +1,38 @@
+
+.images{
+    width: 620px;
+    height: 305px;
+    margin: 0 auto;
+}
+.image{
+
+    width: 252px;
+
+}
+.buttons{
+        width: 203px;
+    height: 300px;
+    margin: 0 auto;
+}
+.toss-btn{
+    width: 100px;
+    height: 37px;
+    color: cornflowerblue;
+    margin-top: 12px;
+    
+}
+.toss-btn:hover{
+        background-color: #e7e7e7;
+        opacity: 0.8;
+        cursor: pointer;
+}
+.image:hover{
+        cursor: pointer;
+}
+h1{
+        width: 371px;
+    margin: 0 auto;
+    font-size: 53px;
+    font-family: sans-serif;
+
+}
